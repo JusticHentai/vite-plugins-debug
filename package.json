@@ -1,11 +1,13 @@
 {
-  "name": "vite-template",
+  "name": "@justichentai/vite-plugins-debug",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "vue-tsc --noEmit && vite build",
     "dev": "vite",
+    "dev:h5": "vite",
+    "dev:pc": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
